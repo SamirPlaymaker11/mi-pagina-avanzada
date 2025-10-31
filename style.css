@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 80%;
+    max-width: 800px;
+}
+
+header, section {
+    background-color: #2a2a2a;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.servicios-lista {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.servicios-lista div {
+    flex: 1;
+    min-width: 100px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #3a3a3a;
+    border-radius: 8px;
+}
+
+/* Formulario */
+input {
+    width: 90%;
+    padding: 10px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 5px;
+}
+
+form button {
+    width: 95%;
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+/* Tema claro */
+body.claro {
+    background-color: #f5f5f5;
+    color: #000;
+}
+
+body.claro header,
+body.claro section {
+    background-color: #e0e0e0;
+}
+
+body.claro .servicios-lista div {
+    background-color: #d0d0d0;
+}
